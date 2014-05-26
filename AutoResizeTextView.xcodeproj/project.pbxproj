@@ -14,13 +14,13 @@
 		CDE6CA3F1933ADDE00398BC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA3E1933ADDE00398BC1 /* main.m */; };
 		CDE6CA431933ADDE00398BC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA421933ADDE00398BC1 /* AppDelegate.m */; };
 		CDE6CA461933ADDE00398BC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE6CA441933ADDE00398BC1 /* Main.storyboard */; };
-		CDE6CA491933ADDE00398BC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA481933ADDE00398BC1 /* ViewController.m */; };
 		CDE6CA4B1933ADDE00398BC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE6CA4A1933ADDE00398BC1 /* Images.xcassets */; };
 		CDE6CA521933ADDE00398BC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA511933ADDE00398BC1 /* XCTest.framework */; };
 		CDE6CA531933ADDE00398BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA321933ADDE00398BC1 /* Foundation.framework */; };
 		CDE6CA541933ADDE00398BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA361933ADDE00398BC1 /* UIKit.framework */; };
 		CDE6CA5C1933ADDE00398BC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDE6CA5A1933ADDE00398BC1 /* InfoPlist.strings */; };
 		CDE6CA5E1933ADDE00398BC1 /* AutoResizeTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA5D1933ADDE00398BC1 /* AutoResizeTextViewTests.m */; };
+		CDE6CA691933AEA800398BC1 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE6CA681933AEA800398BC1 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		CDE6CA411933ADDE00398BC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CDE6CA421933ADDE00398BC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CDE6CA451933ADDE00398BC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDE6CA471933ADDE00398BC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CDE6CA481933ADDE00398BC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CDE6CA4A1933ADDE00398BC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDE6CA501933ADDE00398BC1 /* AutoResizeTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoResizeTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6CA511933ADDE00398BC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CDE6CA591933ADDE00398BC1 /* AutoResizeTextViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoResizeTextViewTests-Info.plist"; sourceTree = "<group>"; };
 		CDE6CA5B1933ADDE00398BC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CDE6CA5D1933ADDE00398BC1 /* AutoResizeTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoResizeTextViewTests.m; sourceTree = "<group>"; };
+		CDE6CA671933AEA800398BC1 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		CDE6CA681933AEA800398BC1 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				CDE6CA411933ADDE00398BC1 /* AppDelegate.h */,
 				CDE6CA421933ADDE00398BC1 /* AppDelegate.m */,
 				CDE6CA441933ADDE00398BC1 /* Main.storyboard */,
-				CDE6CA471933ADDE00398BC1 /* ViewController.h */,
-				CDE6CA481933ADDE00398BC1 /* ViewController.m */,
+				CDE6CA671933AEA800398BC1 /* MyTableViewController.h */,
+				CDE6CA681933AEA800398BC1 /* MyTableViewController.m */,
 				CDE6CA4A1933ADDE00398BC1 /* Images.xcassets */,
 				CDE6CA391933ADDE00398BC1 /* Supporting Files */,
 			);
@@ -248,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDE6CA491933ADDE00398BC1 /* ViewController.m in Sources */,
+				CDE6CA691933AEA800398BC1 /* MyTableViewController.m in Sources */,
 				CDE6CA431933ADDE00398BC1 /* AppDelegate.m in Sources */,
 				CDE6CA3F1933ADDE00398BC1 /* main.m in Sources */,
 			);
