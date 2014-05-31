@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD28D7221933E86700850DFF /* AutoResizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD28D7211933E86700850DFF /* AutoResizeTableViewCell.m */; };
+		CD3270241939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3270231939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.m */; };
 		CDE6CA331933ADDE00398BC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA321933ADDE00398BC1 /* Foundation.framework */; };
 		CDE6CA351933ADDE00398BC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA341933ADDE00398BC1 /* CoreGraphics.framework */; };
 		CDE6CA371933ADDE00398BC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDE6CA361933ADDE00398BC1 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD28D7201933E86700850DFF /* AutoResizeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoResizeTableViewCell.h; sourceTree = "<group>"; };
+		CD28D7211933E86700850DFF /* AutoResizeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoResizeTableViewCell.m; sourceTree = "<group>"; };
+		CD3270221939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+StandardOffsets.h"; sourceTree = "<group>"; };
+		CD3270231939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+StandardOffsets.m"; sourceTree = "<group>"; };
 		CDE6CA2F1933ADDE00398BC1 /* AutoResizeTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoResizeTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE6CA321933ADDE00398BC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDE6CA341933ADDE00398BC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -115,6 +121,10 @@
 				CDE6CA411933ADDE00398BC1 /* AppDelegate.h */,
 				CDE6CA421933ADDE00398BC1 /* AppDelegate.m */,
 				CDE6CA441933ADDE00398BC1 /* Main.storyboard */,
+				CD3270221939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.h */,
+				CD3270231939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.m */,
+				CD28D7201933E86700850DFF /* AutoResizeTableViewCell.h */,
+				CD28D7211933E86700850DFF /* AutoResizeTableViewCell.m */,
 				CDE6CA671933AEA800398BC1 /* MyTableViewController.h */,
 				CDE6CA681933AEA800398BC1 /* MyTableViewController.m */,
 				CDE6CA4A1933ADDE00398BC1 /* Images.xcassets */,
@@ -249,7 +259,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDE6CA691933AEA800398BC1 /* MyTableViewController.m in Sources */,
+				CD3270241939BF0F00800958 /* NSLayoutConstraint+StandardOffsets.m in Sources */,
 				CDE6CA431933ADDE00398BC1 /* AppDelegate.m in Sources */,
+				CD28D7221933E86700850DFF /* AutoResizeTableViewCell.m in Sources */,
 				CDE6CA3F1933ADDE00398BC1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoResizeTextView/AutoResizeTextView-Prefix.pch";
 				INFOPLIST_FILE = "AutoResizeTextView/AutoResizeTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoResizeTextView/AutoResizeTextView-Prefix.pch";
 				INFOPLIST_FILE = "AutoResizeTextView/AutoResizeTextView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +469,7 @@
 				CDE6CA631933ADDE00398BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE6CA641933ADDE00398BC1 /* Build configuration list for PBXNativeTarget "AutoResizeTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +478,7 @@
 				CDE6CA661933ADDE00398BC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
